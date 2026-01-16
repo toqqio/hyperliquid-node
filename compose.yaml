@@ -34,8 +34,8 @@ services:
     deploy:
       resources:
         limits:
-          cpus: "16"
-          memory: "64G"
+          cpus: "12"
+          memory: "32G"
           pids: 1024
 
 volumes:
