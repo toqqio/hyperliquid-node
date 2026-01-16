@@ -13,6 +13,7 @@ services:
       - "--write-fills"
       - "--write-order-statuses"
       - "--write-misc-events"
+      - "--batch-by-block"
       - "--serve-eth-rpc"
       - "--serve-info"
       - "--disable-output-file-buffering"
